@@ -1,0 +1,44 @@
+label {
+background-image: linear-gradient(#8b9da9, #fff6e4);
+box-shadow: inset 0 0 100px hsla(0,0%,0%,.3);
+border: 1px;
+cursor: pointer;
+display: inline-block;
+font:bold 1.2em Helvetica;
+margin-left: -.125em;
+padding: 11px 20px 11px 20px;
+transition: .25s;
+color:#fff;
+text-shadow:2px 2px 2px #666;
+border-radius:5px;
+}
+ 
+input:hover +label{border-radius:0 5px 5px 0;}
+ 
+input:hover + label {
+background-color: #fa3;
+}
+input {
+background-color: #e0e0e0#;
+border: 1px solid #666;
+color: #222;
+display: inline-block;
+font:1.2em Helvetica;
+margin-right: -.25em;
+outline: 0;
+opacity: 0;
+padding: 10px;
+transition: .55s;
+-webkit-transition: .55s;
+-moz-transition: .55s;
+-ms-transition: .55s;
+-o-transition: .55s;
+width: 0;
+}
+input:hover {
+opacity: 1;
+padding-left: .75em;
+padding-right: .75em;
+width: 11em;
+border-radius:5px 0 0 5px;
+}
